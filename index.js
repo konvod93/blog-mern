@@ -5,7 +5,7 @@ import { registerValidation } from './validations/auth.js';
 import { validationResult } from 'express-validator';
 
 mongoose
-.connect('mongodb+srv://konvod93:Abrahadabra418@cluster0.vlgxfmv.mongodb.net/?retryWrites=true&w=majority')
+.connect('mongodb+srv://login:<password>@cluster0.vlgxfmv.mongodb.net/?retryWrites=true&w=majority')
 .then(() => console.log('DB Ok'))
 .catch(() => console.log('DB error', err));
 
