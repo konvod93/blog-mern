@@ -7,7 +7,7 @@ import { UserController, PostController } from './controllers/index.js';
 
 
 mongoose
-    .connect('mongodb+srv://konvod93:Abrahadabra418@cluster0.vlgxfmv.mongodb.net/blog?retryWrites=true&w=majority')
+    .connect('mongodb+srv://login:<password>@cluster0.vlgxfmv.mongodb.net/blog?retryWrites=true&w=majority')
     .then(() => console.log('DB Ok'))
     .catch(() => console.log('DB error', err));
 
